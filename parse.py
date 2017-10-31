@@ -11,7 +11,7 @@ if __name__ == '__main__':
     utils = document.findall('.//utilization')
     procs = document.findall('.//process_info')
 
-    ret = {}
+    ret = {'date': sys.argv[2]}
 
     for mem in mems:
         for mem_ in mem:
