@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PREFIX='/home/himkt/nvidia-logger'
+PREFIX='/root/nvidia-logger'
 
 HOST=`cat /etc/hosts| grep -e 'gamma' -e 'digamma'| cut -f 3| sed -e 's/ //g'`
 DATE=`date "+%Y%m%d"`
